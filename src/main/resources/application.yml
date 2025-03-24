@@ -3,10 +3,10 @@ server:
 
 spring:
   datasource:
-    #    acrs_qa4
-    url: jdbc:mysql://124.43.16.185:50301/sp?useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Colombo&createDatabaseIfNotExists=true&allowPublicKeyRetrieval=true&useSSL=false
-    username: acrs_user
-    password: '*pasWord#123*'
+
+    url:
+    username:
+    password:
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
